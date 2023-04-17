@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Head of my website-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Second Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Body of my website-->
+    <header>
+        <h1>My homepage</h1>
+        <nav>
+        <a href="index.html">Homepage</a>
+        <a href="about.html">About Me</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a class = "active" href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <!--Main content of my page-->
+        <h1>Contact Me</h1>
+        <form>
+            <label for="name">Name:</label><br>
+            <input class="my-form" type="text" id="name" name="name" placeholder="Name" required><br>
+
+            <label for="email">Email:</label><br>
+            <input class="my-form" type="email" id="email" name="email" placeholder="example@example.com" required><br>
+
+            <label for="messagae">Message:</label><br>
+            <textarea class="my-form" id="message" name="message" placeholder="Message" required></textarea><br>
+
+            <input type="submit" value="Send">
+        </form>
+    <footer>
+        <!--footer, copyright, etc.-->
+        <p>&copy; 2023 Nicholas Chill</p>
+    </footer>
+</body>
+</html>
